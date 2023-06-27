@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.nav-container {
+    background-color: black;
+    color: white;
+    padding:1vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-logo {
+    font-weight: bold;
+    font-size: larger;
+    font-family: Tahoma, sans-serif;
+}
+
+.nav-menu {
+    margin: 0 2vw;
+}
+
+.signUp {
+    border: solid;
+    padding:0.5vw;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+@media only screen and (max-width:600px) {
+    .hamburger-icon {
+        display: flex;
+    }
+    .nav-menu-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-mobile {
+        width:90vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
