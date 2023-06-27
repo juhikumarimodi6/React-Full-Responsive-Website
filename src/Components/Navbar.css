@@ -6,45 +6,91 @@
 .nav-container {
     background-color: black;
     color: white;
-    padding:1vw;
-    display: flex;
-    justify-content: space-around;
+    padding:1vh;
+    display:grid;
+    grid-template-columns: 6rem 2fr 3fr 6rem;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
 }
 
-.nav-logo {
+.nav-logo-container {
     font-weight: bold;
     font-size: larger;
     font-family: Tahoma, sans-serif;
+    display: grid;
+    grid-column: 2/3;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-logo a{
+    text-decoration: none;
+}
+
+
+.nav-menu-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center; 
+    list-style-type: none;
 }
 
 .nav-menu {
-    margin: 0 2vw;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .signUp {
     border: solid;
     padding:0.5vw;
+    margin-left: 2vw;
+}
+
+a {
+    color: white;
 }
 
 .hamburger-icon {
     display: none;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:800px) {
+
+    .nav-container { 
+        grid-template-columns: 2rem 1fr 2rem;
+    }
+
     .hamburger-icon {
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
     .nav-menu-container {
-        display: flex;
-        flex-direction: column;
+        display: none;
     }
-    .nav-mobile {
-        width:90vw;
-        display: flex;
-        justify-content: space-between;
+
+    .nav-menu-mobile {
+        display:grid;
+        grid-row:2/3;
+        grid-template-columns: auto;
+        grid-column: 1/4;
+        background-color: rgb(50,50,50);
+        z-index: 99;
+       
     }
-    .nav-container {
-        display: flex;
-        flex-direction: column;
+
+    .nav-menu {
+        margin:1vh;
+        padding:1vh;
+        font-size: larger;
+    }
+
+    .signUp {
+        margin: 2vw;
+        padding: 1vh 20vw;
+        margin-bottom: 60vh;
     }
 }

@@ -12,15 +12,18 @@ const Navbar = ({hamburger, setHamburger}) => {
     }
     return (
         <div className="nav-container">
-            <div className="nav-mobile">
+            <div className="nav-logo-container">
                 <div className="nav-logo"> 
-                    TRVL <SiYourtraveldottv />
-                </div>
-                <div className="hamburger-icon" onClick={handleHamburger}>
-                    {hamburger?<GiHamburgerMenu />: <ImCross />}
+                    <a href = "./Home.js">TRVL <SiYourtraveldottv /> </a>
                 </div>
             </div>
-            <NavMenu />
+            <NavMenu 
+                hamburger={hamburger}
+                setHamburger={setHamburger}
+            />
+            <div className="hamburger-icon" onClick={handleHamburger}>
+                    {hamburger?<GiHamburgerMenu />: <ImCross />}
+            </div>
         </div>
     )
 }
