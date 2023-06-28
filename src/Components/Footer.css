@@ -50,6 +50,11 @@ h4 {
     margin-left:2vh;
 }
 
+.subscribe-btn:active {
+    background-color:rgb(95, 93, 93); 
+    scale:0.8;
+}
+
 .email {
     font-weight: bold;
 }

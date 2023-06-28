@@ -25,18 +25,15 @@ p {
     margin:1vw;
 }
 
-.get-started:hover {
-    background-color: white;
-    color: black;
-}
-
 .get-started:active {
     scale: 0.8;
+    background-color: white;
+    color: black;
 }
 
 .watch-trailer {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color:white;
     padding:0.5vw;
     border-radius: 2px;
     margin:1vw;
@@ -46,9 +43,9 @@ p {
     border: solid;
 }
 
-.watch-trailer:hover {
-    background-color: black;
-    color:white;
+.watch-trailer:active {
+    background-color: white;
+    color: black;
 }
 
 .watch-trailer:active {
