@@ -1,5 +1,6 @@
 import React from "react";
 import { HiEye } from "react-icons/hi";
+import Main from "./Main";
 import Footer from "./Footer";
 import './Home.css'
 
@@ -16,7 +17,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        
+        <Main />
       <Footer />
       </>
     )

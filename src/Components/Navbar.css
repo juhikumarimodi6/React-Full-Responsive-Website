@@ -41,6 +41,7 @@
 }
 
 .nav-menu:active {
+    background-color: black;
     color:antiquewhite;
     scale: 0.8;
 }

@@ -7,6 +7,7 @@ import Products from './Components/Products';
 import {Route, Routes } from 'react-router-dom';
 import Error from './Components/Error';
 import SignUp from './Components/SignUp';
+// import Card from './Components/Cards';
 
 function App() {
   const [hamburger, setHamburger] = React.useState(true)
@@ -24,7 +25,6 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route element={<Error />} />
       </Routes>
-
     </div>
   );
 }
