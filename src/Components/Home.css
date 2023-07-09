@@ -25,6 +25,10 @@ p {
     margin:1vw;
 }
 
+.get-started:hover {
+    cursor: pointer;
+}
+
 .get-started:active {
     scale: 0.8;
     background-color: white;
@@ -41,6 +45,10 @@ p {
     justify-content: center;
     align-items: center;
     border: solid;
+}
+
+.watch-trailer:hover {
+    cursor: pointer;
 }
 
 .watch-trailer:active {

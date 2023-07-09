@@ -4,9 +4,12 @@ import { SiYourtraveldottv } from "react-icons/si";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
 import { Link } from "react-router-dom";
+import { useGlobalAppContext } from "../Context/StateProvider";
 import './Navbar.css'
 
-const Navbar = ({hamburger, setHamburger}) => {
+const Navbar = () => {
+    const {hamburger, setHamburger} = useGlobalAppContext();
+    
     const handleHamburger = () => {
         setHamburger(!hamburger);
         console.log(hamburger)

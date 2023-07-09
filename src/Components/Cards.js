@@ -1,10 +1,13 @@
 import React from "react";
 import './Cards.css';
+import { Link } from "react-router-dom";
 
-const Card = ({url, experience, description}) => {
+const Card = ({url, link, experience, description}) => {
     return (
         <div className="card-container">
-            <img src={url} alt="adventure1" className="adventure-image" />
+            <Link to={link}>
+            <img src={url} alt="adventure1" className="adventure-image"/>
+            </Link>
             <div className="exp-des">
                 <span className="experience">{experience}</span>
                 <div className="description">

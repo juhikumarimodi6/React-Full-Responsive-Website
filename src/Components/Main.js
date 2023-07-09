@@ -14,34 +14,34 @@ const Main = () => {
             <div className="cards">
                 <Card 
                     url = {AmazonWaterfall}
+                    link = {"/waterfall"}
                     experience = {"Adventure"}
                     description = {"Explore the hidden waterfall deep inside the Amazon Jungle"}
                 />
                 <Card 
                     url = {SaharaDessert}
+                    link = {"./saharadesert"}
                     experience = {"Adventure"}
                     description = {"Ride through the Sahara Dessert on a guided camel tour"}
                 />
                 <Card 
                     url = {Football}
+                    link = {"./football"}
                     experience = {"Adventure"}
                     description = {"Experience Football on Top of the Himalayan Mountains"}
                 />
                 <Card 
                     url = {AtlanticOcean}
+                    link = {"./atlanticocean"}
                     experience = {"Mystery"}
                     description = {"Set Sail in the Atlantic Ocean visiting Uncharted Waters"}
                 />
                 <Card 
                     url = {Bali}
+                    link = {"./bali"}
                     experience = {"Luxury"}
                     description = {"Travel through the Island of Bali in a Private Cruise"}
                 />
-                {/* <Card 
-                    url = {"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/5b/e7/1d/willmendonca.jpg?w=500&h=-1&s=1"}
-                    experience = {"Adventure"}
-                    description = {"Explore the hidden waterfall deep inside the Amazon Jungle"}
-                /> */}
             </div>
         </div>
 

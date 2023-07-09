@@ -1,14 +1,13 @@
-.signup-container {
-    background-image: url(../Images/paragliding.jpg);
+.atlantic-ocean-container {
+    background-image: url("../Video/img-3.jpg");
     height:90vh;
     background-repeat: no-repeat;
     background-size: cover;
-    color:rgb(8, 8, 79);
+    color:white;
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-direction: column;
 }

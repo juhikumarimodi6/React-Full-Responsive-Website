@@ -1,7 +1,6 @@
 import React from "react";
 import { HiEye } from "react-icons/hi";
 import Main from "./Main";
-import Footer from "./Footer";
 import './Home.css'
 
 const Home = () => {
@@ -18,7 +17,6 @@ const Home = () => {
             </div>
         </div>
         <Main />
-      <Footer />
       </>
     )
 }
