@@ -5,7 +5,7 @@ import SaharaDessert from "./Video/img-8.jpg"
 import Football from "./Video/img-4.jpg"
 import AtlanticOcean from "./Video/img-3.jpg"
 import Bali from "./Video/img-2.jpg"
-import './Main.css'
+import './Main.scss'
 
 const Main = () => {
     return (

@@ -1,0 +1,60 @@
+@import '../Sass/mixin.scss';
+
+.home-container {
+    background-image: url(../Images/adventure_background.jpg);
+    @include card-style;
+    color:rgb(8, 8, 79);
+}
+
+p {
+    margin:2vh;
+    font-weight: bold;
+}
+
+.get-started {
+    background-color: black;
+    color:white;
+    padding:0.5vw;
+    border-radius: 2px;
+    margin:1vw;
+}
+
+.get-started:hover {
+    cursor: pointer;
+}
+
+.get-started:active {
+    scale: 0.8;
+    background-color: white;
+    color: black;
+}
+
+.watch-trailer {
+    background-color: black;
+    color:white;
+    padding:0.5vw;
+    border-radius: 2px;
+    margin:1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+}
+
+.watch-trailer:hover {
+    cursor: pointer;
+}
+
+.watch-trailer:active {
+    background-color: white;
+    color: black;
+}
+
+.watch-trailer:active {
+    scale: 0.8;
+}
+
+.start-trailer {
+    display: flex;
+    justify-content: center;
+}

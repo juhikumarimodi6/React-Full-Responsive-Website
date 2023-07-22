@@ -1,5 +1,5 @@
 import React from "react" 
-import './Waterfall.css'
+import './Waterfall.scss'
 
 const Waterfall = () => {
     return (

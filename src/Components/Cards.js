@@ -1,5 +1,5 @@
 import React from "react";
-import './Cards.css';
+import './Cards.scss';
 import { Link } from "react-router-dom";
 
 const Card = ({url, link, experience, description}) => {

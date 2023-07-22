@@ -1,0 +1,6 @@
+@import '../../Sass/mixin.scss';
+
+.bali-container {
+    background-image: url("../Video/img-2.jpg");
+    @include card-style;
+}

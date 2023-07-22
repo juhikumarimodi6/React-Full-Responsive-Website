@@ -1,0 +1,80 @@
+.footer-container {
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 15vh;
+}
+
+.footer-heading {
+    margin:2vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.email-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+    margin: 5vh;
+    flex-wrap: wrap;
+}
+
+.aboutus, .contactus, .videos, .socialmedia {
+    display: flex;
+    flex-direction: column;
+    color: rgb(247, 243, 243)
+}
+
+h4 {
+    margin:2vh;
+    color:white
+}
+
+.subscribe-btn {
+    background-color: rgb(222, 216, 216);
+    border:solid 1px;
+    color:rgb(12, 12, 12);
+    padding: 0.2em;
+    font-weight: bold;
+    margin-left:2vh;
+}
+
+.subscribe-btn:hover {
+    cursor: pointer;
+}
+
+.subscribe-btn:active {
+    background-color:rgb(95, 93, 93); 
+    scale:0.8;
+}
+
+.email {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+    .footer-container { 
+        padding: 2vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-container { 
+        padding: 0vh;
+    }
+
+    .subscribe-btn, .email {
+        margin-top: 1vh;
+    }
+
+}

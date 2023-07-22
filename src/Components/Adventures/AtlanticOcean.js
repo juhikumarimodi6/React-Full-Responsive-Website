@@ -1,5 +1,5 @@
 import React from "react" 
-import './AtlanticOcean.css'
+import './AtlanticOcean.scss'
 
 const AtlanticOcean = () => {
     return (

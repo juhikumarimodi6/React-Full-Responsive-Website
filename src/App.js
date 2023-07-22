@@ -12,7 +12,7 @@ import Bali from './Components/Adventures/Bali';
 import AtlanticOcean from './Components/Adventures/AtlanticOcean';
 import Footer from './Components/Footer';
 import {Route, Routes } from 'react-router-dom';
-import './App.css';
+import './App.scss';
 
 
 function App() {

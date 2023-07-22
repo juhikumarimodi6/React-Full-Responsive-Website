@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
 import { Link } from "react-router-dom";
 import { useGlobalAppContext } from "../Context/StateProvider";
-import './Navbar.css'
+import './Navbar.scss'
 
 const Navbar = () => {
     const {hamburger, setHamburger} = useGlobalAppContext();

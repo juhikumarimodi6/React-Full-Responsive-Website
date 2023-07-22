@@ -1,0 +1,62 @@
+@import '../Sass/variable.scss';
+@import '../Sass/mixin.scss';
+
+.card-container {
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin:2%;
+    width: 25vw;
+    min-height: 20vw;
+    height: 30vh;
+   
+}
+
+.adventure-image {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all 2s linear;
+    &:hover{
+        min-width: 25vw;
+        transform:scale(1.1);
+    }
+}
+
+.experience {
+    position:relative;
+    font-weight: bold;
+    background-color: $experience-background-clr;
+    color:white;
+    bottom:35px;
+    padding: 1%;
+}
+
+.description {
+    margin:0px 5% 5%;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+@media only screen and (max-width:1000px) {
+    .card-container {
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .card-container {
+        width: 60vw;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .card-container {
+        width: 80vw;
+    }
+}

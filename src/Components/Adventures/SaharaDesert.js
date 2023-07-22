@@ -1,5 +1,5 @@
 import React from "react" 
-import './SaharaDesert.css'
+import './SaharaDesert.scss'
 
 const SaharaDesert = () => {
     return (

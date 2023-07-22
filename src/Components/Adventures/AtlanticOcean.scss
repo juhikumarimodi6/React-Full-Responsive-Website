@@ -1,0 +1,6 @@
+@import '../../Sass/mixin.scss';
+
+.atlantic-ocean-container {
+    background-image: url("../Video/img-3.jpg");
+    @include card-style;
+}

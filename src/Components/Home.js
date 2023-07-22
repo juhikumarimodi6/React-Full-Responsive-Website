@@ -1,7 +1,7 @@
 import React from "react";
 import { HiEye } from "react-icons/hi";
 import Main from "./Main";
-import './Home.css'
+import './Home.scss'
 
 const Home = () => {
     return (

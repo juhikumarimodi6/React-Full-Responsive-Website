@@ -1,0 +1,12 @@
+@mixin card-style {
+    height:90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

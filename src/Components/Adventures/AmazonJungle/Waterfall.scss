@@ -1,0 +1,6 @@
+@import '../../../Sass/mixin.scss';
+
+.waterfall-container {
+    background-image: url("../../Video/img-9.jpg");
+    @include card-style;
+}

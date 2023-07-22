@@ -1,5 +1,5 @@
 import React from "react" 
-import './Bali.css'
+import './Bali.scss'
 
 const Bali = () => {
     return (

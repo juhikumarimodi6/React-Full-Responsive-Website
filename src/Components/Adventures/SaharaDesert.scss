@@ -1,0 +1,5 @@
+@import '../../Sass/mixin.scss';
+.sahara-desert-container {
+    background-image: url("../Video/img-8.jpg");
+    @include card-style;
+}

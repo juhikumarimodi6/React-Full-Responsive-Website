@@ -12,7 +12,8 @@ const StateProvider = ({children}) => {
             }}
         >
             {children}
-        </StateContext.Provider>)
+        </StateContext.Provider>
+    )
 }
 
 const useGlobalAppContext = () => {

@@ -1,0 +1,6 @@
+@import '../../Sass/mixin.scss';
+
+.football-container {
+    background-image: url("../Video/img-4.jpg");
+    @include card-style;
+}
